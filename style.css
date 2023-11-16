@@ -4,8 +4,24 @@ body {
     background: -o-linear-gradient(20deg, rgb(184, 170, 255), rgb(172, 255, 255), rgb(255, 255, 170));
     background: linear-gradient(70deg, rgb(184, 170, 255), rgb(172, 255, 255), rgb(255, 255, 170));
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1em;
+    margin: 0;
     padding: 0;
+}
+
+main {
+    margin: 0 1em;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  white;
+    height: 3em;
+    border-top: 2px solid black;
+    left: 0;
+    bottom: 0;
 }
 
 h2 {
@@ -65,16 +81,15 @@ li {
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
-    background-color: aquamarine;
+    background-color: rgb(10, 255, 173);
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
 }
 
-.important-notes > a {
+.colorfull-phrase {
     white-space: nowrap;
     text-align: center;
-    min-width: 170px;
     color: black;
     text-decoration: none;
     background-color: rgba(0, 0, 255, 0.6);
