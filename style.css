@@ -73,6 +73,12 @@ li {
     margin: 5px;
 }
 
+.comparison-images {
+    margin: 10px 1vw;
+    width: 40vw;
+    min-width: 400px;
+}
+
 .youtube-channel {
     border-radius: 50%;
 }
